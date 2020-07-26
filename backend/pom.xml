@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.examples.olingo2</groupId>
-    <artifactId>olingo2</artifactId>
-    <name>olingo2</name>
-    <description>Sample Olingo 2 Project</description>
-
     <parent>
-        <groupId>com.baeldung</groupId>
-        <artifactId>parent-boot-2</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../parent-boot-2</relativePath>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
+    <groupId>com.examples.databinding</groupId>
+    <artifactId>kendo-react-data-binding</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>kendo-react-data-binding</name>
+    <description>Sample kendo react data binding Project</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <olingo2.version>2.0.11</olingo2.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -80,9 +84,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <olingo2.version>2.0.11</olingo2.version>
-    </properties>
 
 </project>

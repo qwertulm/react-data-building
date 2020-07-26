@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2;
+package com.example.databinding;
 
 import java.util.List;
 import java.util.Map;

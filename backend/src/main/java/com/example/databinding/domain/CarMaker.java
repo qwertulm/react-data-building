@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2.domain;
+package com.example.databinding.domain;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2;
+package com.example.databinding;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

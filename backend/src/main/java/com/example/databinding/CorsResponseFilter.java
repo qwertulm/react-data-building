@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2;
+package com.example.databinding;
 
 import java.io.IOException;
 
@@ -16,7 +16,6 @@ public class CorsResponseFilter
         MultivaluedMap<String, Object> headers = responseContext.getHeaders();
 
         headers.add("Access-Control-Allow-Origin", "*");
-        //headers.add("Access-Control-Allow-Origin", "http://podcastpedia.org"); //allows CORS requests only coming from podcastpedia.org
         headers.add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");
         headers.add("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, X-Codingpedia");
     }

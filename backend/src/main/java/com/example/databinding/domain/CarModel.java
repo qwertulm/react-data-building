@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2.domain;
+package com.example.databinding.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
